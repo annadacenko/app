@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banderogus</title>
+
+    <link rel="preload" href="./img/gus-anim.gif" as="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <section class="main-page">
+
+        <div class="wrapper">
+
+        <div class="main-page-left-side">
+
+            <img src="./img/goit-logo.svg" alt="" class="logo">
+
+            <div class="main-page-text-container">
+                <h2 class="main-page-description">Доброго вечора, ми з України</h2> 
+                <h1 class="main-page-title">Бандерогусь</h1>
+                <p class="main-page-text">    
+                    Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми подвигами, бороню Батьківщину та підтримую позитивний дух народу. Слава Україні!
+                
+
+                </p>
+            
+                <button class="main-page-button" id="go-to-form-btn">Запустити гуся</button>
+            </div>
+
+        </div>
+
+            <img src="./img/gus-main-page.svg" alt="">
+        </div>
+    </section>
+
+    <section class="gus-facts">
+        <img src="./img/tryzub.svg" alt="tryzub" class="tryzub">
+
+        <p class="title-gus-facts">
+            Цікаві факти про гусей
+        </p>
+
+        <p class="gus-facts-description">
+            Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки можуть атакувати ворога системою надпотужного озброєння. Також нищать психологічно, активуючи високочастотне шипіння та розмахування крилами
+        </p>
+
+        <div class="wrapper">
+            <div class="gus-fact-item">
+                <img src="./img/gus1.svg" alt="gus-fact-1">
+                <h3 class="gus-fact-item-title">Система навігації</h3>
+                <p class="gus-fact-item-description">Супутниковий GPS та ехолокатори розпізнають ворожу техніку навіть на етапі збірки</p>
+
+            </div>
+
+            <div class="gus-fact-item">
+                <img src="./img/gus2.svg" alt="gus-fact-2">
+                <h3 class="gus-fact-item-title">Очі-тепловізори</h3>
+                <p class="gus-fact-item-description">Допомагають виявити характер сигнатури об’єктів та значно підвищують точність удару</p>
+      
+            </div> 
+
+            <div class="gus-fact-item">
+                <img src="./img/gus3.svg" alt="gus-fact-3">
+                <h3 class="gus-fact-item-title">Байракрила</h3>
+                <p class="gus-fact-item-description">Можуть нести 2-4 керовані ракети, що вражають ціль на відстані «ніхріна собі» кілометрів</p>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <section class="form-section">
+
+
+        <form action="#" class="form-container" id="form" data-netlify="true">
+            <img src="./img/tryzub.svg" alt="tryzub">
+
+            <h3 class="form-title">Поділися, будь ласка, поштою</h3>
+            <p class="form-description">та запиши гуся до бандерозагону</p>
+
+            <div class="form-field">
+                <label for="user-name" class="form-field-label">Ім'я</label>
+                <input type="text" class="form-field-input" name="Ім'я" id="user-name" required>
+            </div>
+
+            <div class="form-field form-field-email" >
+                <label for="user-email" class="form-field-label">Email</label>
+                <input type="email" class="form-field-input" name="email" id="user-email" required>
+            </div>
+           
+            <button class="form-button" id="launch-btn">Запустити гуся</button>
+
+        </form>
+
+    </section> 
+    
+    <script src="./js/form.js"></script>
+</body>
+
+</html>
+
+
